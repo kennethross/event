@@ -1,0 +1,10 @@
+<h1>Batch Data</h1>
+
+<ul>
+  Event Name,Date
+  {% for pos in batch %}
+    
+    <li class="submit">{{ pos.name}},{{ pos.date }}</li>
+    
+	
+  {% endfor %}

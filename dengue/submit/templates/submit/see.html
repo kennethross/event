@@ -1,0 +1,10 @@
+<h1>upload Batch Data</h1>
+
+<ul>
+  Event Name,Date
+  {% for upload in uploaddata %}
+    
+    <li class="submit">{{ upload.name}},{{ upload.date }}</li>
+    
+	
+  {% endfor %}
